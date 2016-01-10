@@ -1,28 +1,11 @@
-== README
+== Search Coursera
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A url-search based on the Coursera API, by the Johns Hopkins University - MD.
 
-Things you may want to cover:
+<tt>$ rails server</tt>
 
-* Ruby version
+default search url:
+<tt>http://localhost:3000/courses/index</tt>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+other searches: change looking_for param
+<tt>http://localhost:3000/courses/index?looking_for=angular</tt>
